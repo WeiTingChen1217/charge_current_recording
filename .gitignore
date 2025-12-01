@@ -1,0 +1,51 @@
+# === 虛擬環境 ===
+venv/
+.venv/
+env/
+ENV/
+
+# === Python 快取 ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# === PaddleOCR 下載的模型快取（超大！千萬不要上傳）===
+inference/
+.ppocr/
+~/.paddleocr/
+whl/
+
+# === 你不要上傳的資料夾 ===
+img/
+tools/
+# 如果你還有其他不想上傳的資料夾，直接加在這裡
+# backup/
+# logs/
+
+# === Excel 檔案（會一直變動，絕對不要上傳）===
+*.xlsx
+*.xls
+!*.xlsx  # 如果你有範本如 template.xlsx 要上傳，再加下面這行
+# template.xlsx
+
+# === OpenCV 視窗截圖或暫存圖 ===
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+# 如果你有範例圖片要示範，可以用 ! 反向包含
+# !example.jpg
+
+# === IDE / 編輯器設定 ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === 其他常見 ===
+.DS_Store
+Thumbs.db
+desktop.ini
