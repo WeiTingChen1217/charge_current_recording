@@ -18,7 +18,7 @@
 
 
 ## 快速開始（30 秒部署）
-
+```bash
 # 1. Clone 專案
 git clone https://github.com/WeiTingChen1217/charge_current_recording.git
 cd charge_current_recording
